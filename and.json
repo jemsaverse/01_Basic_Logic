@@ -1,0 +1,91 @@
+{
+  "caption": "and",
+  "gates": [
+    {
+      "x": "240",
+      "y": "180",
+      "direction": "0",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"and\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[false,false]"
+    }
+  ],
+  "outputs": [
+    {
+      "x": "420",
+      "y": "210",
+      "colr": "0"
+    }
+  ],
+  "inputs": [
+    {
+      "x": "105",
+      "y": "165",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 0
+    },
+    {
+      "x": "105",
+      "y": "285",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 1
+    }
+  ],
+  "wires": [
+    {
+      "x1": "120",
+      "y1": "210",
+      "x2": "240"
+    },
+    {
+      "x1": "120",
+      "y1": "180",
+      "y2": "210"
+    },
+    {
+      "x1": "120",
+      "y1": "240",
+      "y2": "300"
+    },
+    {
+      "x1": "300",
+      "y1": "210",
+      "x2": "420"
+    },
+    {
+      "x1": "120",
+      "y1": "240",
+      "x2": "240"
+    }
+  ],
+  "busses": [],
+  "conpoints": [],
+  "diodes": [],
+  "customs": [],
+  "labels": [
+    {
+      "x": "210",
+      "y": "150",
+      "txt": "A"
+    },
+    {
+      "x": "210",
+      "y": "300",
+      "txt": "B"
+    },
+    {
+      "x": "330",
+      "y": "180",
+      "txt": "Q"
+    }
+  ],
+  "segDisplays": [],
+  "busWrappers": [],
+  "busUnwrappers": [],
+  "busInputs": [],
+  "decoders": []
+}
