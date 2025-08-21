@@ -6,3 +6,4 @@
 - NAND
 - NOR
 - XOR
+__Supiii
